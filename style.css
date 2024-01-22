@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 50px auto;
+  border: 1px solid black;
+  width: 350px;
+  padding: 10px;
+}
+.top h1 {
+  font-weight: bold;
+}
+
+.line1 {
+  border: 6px solid rgb(0, 0, 0);
+}
+.top2 h6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-in {
+  display: flex;
+  gap: 25px;
+}
+.line2 {
+  border: 1px solid rgb(0, 0, 0);
+}
+.cal {
+  display: flex;
+  justify-content: space-between;
+}
+.cal-in {
+  display: flex;
+  gap: 23px;
+}
+#line3 {
+  border: 1px solid gray;
+}
+.divFlex {
+  display: flex;
+}
+.p1 {
+  width: 60%;
+}
+.p2 {
+  width: 20%;
+  text-align: end;
+}
+
+.indent {
+  margin-left: 15px;
+}
+.indentP {
+  padding-left: 15px;
+}
+.dickKlein {
+  border: 3px solid black;
+}
+#daily {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 2px;
+}
+#dailyLine {
+  border: 1px solid black;
+}
+
+.top3T {
+  width: 60%;
+}
+.Top3T-in {
+  width: 20%;
+  text-align: end;
+}
+.indentLine {
+  margin-left: 15px;
+}
+
+.top3M {
+  width: 60%;
+}
+.Top3M-in {
+  width: 20%;
+  text-align: end;
+}
+.bottemText {
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+.top3B {
+  width: 40%;
+  font-size: 12px;
+}
+.Top3B-in {
+  width: 20%;
+  text-align: start;
+  font-size: 12px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+}
+.bullet {
+  padding: 0 8px;
+}
